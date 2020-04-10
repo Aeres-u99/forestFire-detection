@@ -10,7 +10,7 @@ Our project is meant to simulate the conditions of Fire in a forest region and u
 
 The Entire system can be implemented in a subsystem as in our project. In this so subsystem, we have highlighted about 4 types of nodes.
 
-![](/home/akuma/IOE/ForestFire/Screenshots/Cheese_Fri-10Apr20_21.32.png)
+![](/Screenshots/Cheese_Fri-10Apr20_21.32.png)
 
 They are:
 
@@ -28,17 +28,17 @@ Slaves are the nodes which basically observe the temperature and notify it to ma
 
 This simulation is achieved using Natural event generator in CupCarbon. 
 
-![](/home/akuma/IOE/ForestFire/Screenshots/Cheese_Fri-10Apr20_21.34.png)
+![](/Screenshots/Cheese_Fri-10Apr20_21.34.png)
 
 Masters simply compare them to a static value which can be predefined before deployment (**Note :** A remote synchronisation and setup protocol is under study which will certainly take time to be developed.) Upon comparing they pass it onto kamisama, kamisama simply writes into a file for further purpose.
 
-![](/home/akuma/IOE/ForestFire/Screenshots/Cheese_Fri-10Apr20_19.49.png)
+![](/Screenshots/Cheese_Fri-10Apr20_19.49.png)
 
 ### Simulation
 
 Simulation is performed with two natural event at separate ends in the cluster and they highlight the Kamisama upon being received. 
 
-![](/home/akuma/IOE/ForestFire/Screenshots/Cheese_Fri-10Apr20_21.32.png)
+![](/Screenshots/Cheese_Fri-10Apr20_21.32.png)
 
 ### Assumptions
 
@@ -60,7 +60,7 @@ The simulation program writes the content (the coordinates and time) received  b
 
 
 
-![](/home/akuma/Screenshots/Cheese_Fri-10Apr20_22.41.png)
+![](Screenshots/Cheese_Fri-10Apr20_22.41.png)
 
 
 
@@ -74,9 +74,9 @@ The notifications received on an android device, look like this.
 
 (Please note that the time and coordinates are as per the cupcarbon simulator.)
 
-![](/home/akuma/IOE/ForestFire/Screenshots/WhatsApp Image 2020-04-10 at 22.42.42 (1).jpeg)
+![](Screenshots/"WhatsApp Image 2020-04-10 at 22.42.42 (1).jpeg")
 
-![](/home/akuma/IOE/ForestFire/Screenshots/WhatsApp Image 2020-04-10 at 22.42.42.jpeg)
+![](Screenshots/"WhatsApp Image 2020-04-10 at 22.42.42.jpeg")
 
 ### Conclusion:
 
