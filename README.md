@@ -52,4 +52,32 @@ Simulation is performed with two natural event at separate ends in the cluster a
 
 * Notification have been done using Notify my device. 
 
+### Notification System
 
+The Notification has been achieved using API system provided by notify my device. 
+
+The simulation program writes the content (the coordinates and time) received  by _kamisama_ into a file SINK_16, using a python program we monitor the file and observe the time interval change. 
+
+
+
+![](/home/akuma/Screenshots/Cheese_Fri-10Apr20_22.41.png)
+
+
+
+Upon change in time, we send a notification and wait for some time between 20-30 minutes. After 30 minutes the file is again observed for changes. 
+
+Currently there is no way to mute the _kamisama_ but in neat future upon implementation of synchronisation protocol, the same shall be implemented as well. 
+
+
+
+The notifications received on an android device, look like this. 
+
+(Please note that the time and coordinates are as per the cupcarbon simulator.)
+
+![](/home/akuma/IOE/ForestFire/Screenshots/WhatsApp Image 2020-04-10 at 22.42.42 (1).jpeg)
+
+![](/home/akuma/IOE/ForestFire/Screenshots/WhatsApp Image 2020-04-10 at 22.42.42.jpeg)
+
+### Conclusion:
+
+Henceforth, we have successfully simulated the cluster based network for forest fire detection with dual layer of check and compatibility. Certainly there are many more things that can be done and enchancement with the help of AI/Big data can be made, this lays down the foundation for understanding the basics of communication of clusters and masters. 

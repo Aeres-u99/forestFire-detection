@@ -30,8 +30,8 @@ if __name__ == "__main__":
                 notification_status = requests.get(request_url)
                 print(notification_status)
                 last_time = time_interval
-                time.sleep(30)
+                time.sleep(2000)
             else:
-                time.sleep(30)
+                time.sleep(1000)
 
 
