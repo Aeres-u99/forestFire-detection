@@ -74,9 +74,9 @@ The notifications received on an android device, look like this.
 
 (Please note that the time and coordinates are as per the cupcarbon simulator.)
 
-![](Screenshots/"f1.jpeg")
+![](/Screenshots/f1.jpeg)
 
-![](Screenshots/"f2.jpeg")
+![](/Screenshots/f2.jpeg)
 
 ### Conclusion:
 
