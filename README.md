@@ -1,0 +1,2 @@
+# ForestFireDetection-Cupcarbon
+# forestFire-detection

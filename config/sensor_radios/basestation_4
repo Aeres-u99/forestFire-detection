@@ -1,0 +1,15 @@
+ List of radio Modules for the Sensor4
+------------------------------------------
+current_radio_name:radio1
+radio_standard:ZIGBEE
+radio_my:0
+radio_channel:0
+radio_network_id:13108
+radio_radius:100.0
+radio_etx:5.92E-5
+radio_erx:2.86E-5
+radio_esleep:1.0E-7
+radio_elisten:1.0E-6
+radio_data_rate:250000
+conso_tx_model:Classical (Tx)
+conso_rx_model:Classical (Rx)
