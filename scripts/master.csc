@@ -1,10 +1,12 @@
 loop 
 wait 
 read y 
-print $y 
-if($y>20) 
+print $y
+rdata $y t cx cy
+data c $cx $cy 
+if($t>20) 
 	mark 1
-	send $y 
+	send $c 
 else 
 	mark 0 
 end
